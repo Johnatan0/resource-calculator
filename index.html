@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de recursos</title>
+    <script src="bundle.js" defer></script>
+</head>
+<body class="flex flex-col w-screen h-screen justify-center items-center">
+
+    <table>
+        <thead class="bg-neutral-200">
+            <th class="border border-black p-2">Materiais</th>
+            <th class="border border-black p-2">Taurina</th>
+            <th class="border border-black p-2">Cafeina</th>
+            <th class="border border-black p-2">Alumínio</th>
+            <th class="border border-black p-2">Pano</th>
+            <th class="border border-black p-2">Linha</th>
+        </thead>
+
+        <tbody>
+            <td class="border border-black p-2 bg-neutral-200 font-bold">Quantidade</td>
+            <td class="border border-black p-2"><input type="number"id="taurina" value="0" class="w-16 outline-none text-center resource-input"></td>
+            <td class="border border-black p-2"><input type="number"id="cafeina" value="0" class="w-16 outline-none text-center resource-input"></td>
+            <td class="border border-black p-2"><input type="number"id="aluminio" value="0" class="w-16 outline-none text-center resource-input"></td>
+            <td class="border border-black p-2"><input type="number"id="pano" value="0" class="w-16 outline-none text-center resource-input"></td>
+            <td class="border border-black p-2"><input type="number"id="linha" value="0" class="w-16 outline-none text-center resource-input"></td>
+        </tbody>
+    </table>
+
+    <table class="mt-8">
+
+        <thead>
+            <th colspan="5" class="border border-black p-2 bg-neutral-200">Quantidade de itens possíveis com materiais disponíveis</th>
+        </thead>
+
+        <thead class="bg-neutral-200">
+            <th class="border border-black p-2">Energético</th>
+            <th class="border border-black p-2">Algema</th>
+            <th class="border border-black p-2">Lockpick</th>
+            <th class="border border-black p-2">Colete</th>
+            <th class="border border-black p-2">Capuz</th>
+        </thead>
+
+        <tbody>
+            <td class="border border-black p-2 text-center" id="energetico">0</td>
+            <td class="border border-black p-2 text-center" id="algema">0</td>
+            <td class="border border-black p-2 text-center" id="lockpick">0</td>
+            <td class="border border-black p-2 text-center" id="colete">0</td>
+            <td class="border border-black p-2 text-center" id="capuz">0</td>
+        </tbody>
+    </table>
+
+    <table class="mt-8">
+
+        <thead>
+            <th colspan="5" class="border border-black p-2 bg-neutral-200">Quantidade a ser craftada</th>
+        </thead>
+
+        <thead class="bg-neutral-200">
+            <th class="border border-black p-2">Energético</th>
+            <th class="border border-black p-2">Algema</th>
+            <th class="border border-black p-2">Lockpick</th>
+            <th class="border border-black p-2">Colete</th>
+            <th class="border border-black p-2">Capuz</th>
+        </thead>
+
+        <tbody>
+            <td class="border border-black p-2 text-center"><input type="number" id="energeticoInput" value="0" min="0" class="w-16 outline-none text-center crafting-input"></td>
+            <td class="border border-black p-2 text-center"><input type="number" id="algemainput" value="0" min="0" class="w-16 outline-none text-center crafting-input"></td>
+            <td class="border border-black p-2 text-center"><input type="number" id="lockpickinput" value="0" min="0" class="w-16 outline-none text-center crafting-input"></td>
+            <td class="border border-black p-2 text-center"><input type="number" id="coleteinput" value="0" min="0" class="w-16 outline-none text-center crafting-input"></td>
+            <td class="border border-black p-2 text-center"><input type="number" id="capuzinput" value="0" min="0" class="w-16 outline-none text-center crafting-input"></td>
+        </tbody>
+    </table>
+
+    <table class="mt-8">
+
+        <thead>
+            <th colspan="5" class="border border-black p-2 bg-neutral-200">Recursos restantes</th>
+        </thead>
+
+        <thead class="bg-neutral-200">
+            <th class="border border-black p-2">Taurina</th>
+            <th class="border border-black p-2">Cafeina</th>
+            <th class="border border-black p-2">Alumínio</th>
+            <th class="border border-black p-2">Pano</th>
+            <th class="border border-black p-2">Linha</th>
+        </thead>
+
+        <tbody>
+            <td class="border border-black p-2 text-center" id="taurinarestante">0</td>
+            <td class="border border-black p-2 text-center" id="cafeinarestante">0</td>
+            <td class="border border-black p-2 text-center" id="aluminiorestante">0</td>
+            <td class="border border-black p-2 text-center" id="panorestante">0</td>
+            <td class="border border-black p-2 text-center" id="linharestante">0</td>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
